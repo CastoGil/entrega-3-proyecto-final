@@ -1,0 +1,6 @@
+$encabezados:(
+        titu:rgb(0,255,0),
+        subtitu:rgb(238, 255, 0),
+);
+$titu: map-get($encabezados, titu );
+$subtitu: map-get($encabezados, subtitu );
